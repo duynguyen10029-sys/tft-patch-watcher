@@ -1,0 +1,2 @@
+# Script chỉ dùng thư viện chuẩn của Python (urllib, json, hashlib...)
+# nên không có dependency ngoài nào cần cài đặt.

@@ -1,0 +1,40 @@
+name: TFT Patch Watcher
+
+on:
+  schedule:
+    # Chạy mỗi giờ (UTC). Điều chỉnh tuỳ nhu cầu, ví dụ '*/30 * * * *' để chạy mỗi 30 phút.
+    - cron: "0 * * * *"
+  workflow_dispatch: {}   # cho phép chạy tay từ tab Actions trên GitHub
+
+permissions:
+  contents: write   # cần quyền ghi để commit snapshot mới vào repo
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Chạy script fetch & diff
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          CDRAGON_REGION: "latest"   # đổi thành "pbe" nếu muốn theo dõi PBE
+        run: python scripts/fetch_and_diff.py
+
+      - name: Commit snapshot mới nếu có thay đổi
+        run: |
+          git config user.name "tft-patch-bot"
+          git config user.email "actions@github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "Không có gì để commit."
+          else
+            git commit -m "chore: cập nhật snapshot TFT $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+            git push
+          fi
