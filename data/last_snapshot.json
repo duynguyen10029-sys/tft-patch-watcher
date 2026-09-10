@@ -40497,7 +40497,7 @@
         "hp": 650.0,
         "initialMana": 0,
         "magicResist": 35.0,
-        "mana": 30.0,
+        "mana": 25.0,
         "range": 1.0
       },
       "traits": [
@@ -40798,7 +40798,7 @@
         "hp": 850.0,
         "initialMana": 0,
         "magicResist": 50.0,
-        "mana": 40.0,
+        "mana": 30.0,
         "range": 1.0
       },
       "traits": [
@@ -40816,14 +40816,14 @@
       "cost": 5,
       "name": "Elder Dragon",
       "stats": {
-        "armor": 70.0,
+        "armor": 75.0,
         "attackSpeed": 0.5,
         "critChance": 0.25,
         "critMultiplier": 1.399999976158142,
-        "damage": 110.0,
+        "damage": 125.0,
         "hp": 1800.0,
         "initialMana": 20.0,
-        "magicResist": 70.0,
+        "magicResist": 75.0,
         "mana": 60.0,
         "range": 2.0
       },
@@ -41020,8 +41020,8 @@
         "attackSpeed": 0.8500000238418579,
         "critChance": 0.25,
         "critMultiplier": 1.399999976158142,
-        "damage": 30.0,
-        "hp": 850.0,
+        "damage": 40.0,
+        "hp": 950.0,
         "initialMana": 0,
         "magicResist": 55.0,
         "mana": 25.0,
@@ -41156,10 +41156,10 @@
         "critChance": 0.25,
         "critMultiplier": 1.399999976158142,
         "damage": 50.0,
-        "hp": 700.0,
-        "initialMana": 40.0,
+        "hp": 750.0,
+        "initialMana": 30.0,
         "magicResist": 40.0,
-        "mana": 100,
+        "mana": 90.0,
         "range": 1.0
       },
       "traits": [
@@ -41406,10 +41406,10 @@
         "critChance": 0.25,
         "critMultiplier": 1.399999976158142,
         "damage": 80.0,
-        "hp": 1100.0,
-        "initialMana": 40.0,
+        "hp": 1150.0,
+        "initialMana": 30.0,
         "magicResist": 60.0,
-        "mana": 100,
+        "mana": 90.0,
         "range": 1.0
       },
       "traits": [
@@ -41426,14 +41426,14 @@
       "cost": 3,
       "name": "Master Yi",
       "stats": {
-        "armor": 60.0,
+        "armor": 55.0,
         "attackSpeed": 0.800000011920929,
         "critChance": 0.25,
         "critMultiplier": 1.399999976158142,
         "damage": 65.0,
         "hp": 850.0,
         "initialMana": 0,
-        "magicResist": 60.0,
+        "magicResist": 55.0,
         "mana": 3.0,
         "range": 1.0
       },
@@ -41459,7 +41459,7 @@
         "hp": 1100.0,
         "initialMana": 0,
         "magicResist": 60.0,
-        "mana": 60.0,
+        "mana": 65.0,
         "range": 2.0
       },
       "traits": [
@@ -41630,11 +41630,11 @@
         "attackSpeed": 0.800000011920929,
         "critChance": 0.25,
         "critMultiplier": 1.399999976158142,
-        "damage": 30.0,
+        "damage": 35.0,
         "hp": 500.0,
-        "initialMana": 25.0,
+        "initialMana": 30.0,
         "magicResist": 25.0,
-        "mana": 65.0,
+        "mana": 70.0,
         "range": 4.0
       },
       "traits": [
@@ -41857,7 +41857,7 @@
         "attackSpeed": 0.75,
         "critChance": 0.25,
         "critMultiplier": 1.399999976158142,
-        "damage": 40.0,
+        "damage": 45.0,
         "hp": 750.0,
         "initialMana": 0,
         "magicResist": 45.0,
@@ -41988,7 +41988,7 @@
         "hp": 1300.0,
         "initialMana": 30.0,
         "magicResist": 60.0,
-        "mana": 140.0,
+        "mana": 125.0,
         "range": 1.0
       },
       "traits": [
@@ -42009,7 +42009,7 @@
         "attackSpeed": 0.550000011920929,
         "critChance": 0.25,
         "critMultiplier": 1.399999976158142,
-        "damage": 110.0,
+        "damage": 115.0,
         "hp": 1100.0,
         "initialMana": 0,
         "magicResist": 65.0,
@@ -42059,7 +42059,7 @@
         "attackSpeed": 0.75,
         "critChance": 0.25,
         "critMultiplier": 1.399999976158142,
-        "damage": 60.0,
+        "damage": 55.0,
         "hp": 650.0,
         "initialMana": 20.0,
         "magicResist": 35.0,
@@ -42082,14 +42082,14 @@
       "name": "Draven",
       "stats": {
         "armor": 45.0,
-        "attackSpeed": 0.800000011920929,
+        "attackSpeed": 0.8500000238418579,
         "critChance": 0.25,
         "critMultiplier": 1.399999976158142,
         "damage": 48.0,
         "hp": 900.0,
         "initialMana": 0,
         "magicResist": 45.0,
-        "mana": 120.0,
+        "mana": 110.0,
         "range": 6.0
       },
       "traits": [
@@ -42339,7 +42339,7 @@
         "hp": 850.0,
         "initialMana": 0,
         "magicResist": 30.0,
-        "mana": 40.0,
+        "mana": 45.0,
         "range": 1.0
       },
       "traits": [
@@ -56783,14 +56783,14 @@
       "desc": "A random back row champion gains @ASMultiplier*100@% Attack Speed for @ASDuration@ seconds.",
       "effects": {
         "ASDuration": 7.0,
-        "ASMultiplier": 0.75
+        "ASMultiplier": 0.8500000238418579
       },
       "name": "Backrow Star"
     },
     "DA_18_BackrowStar_Upgrade": {
       "desc": "A random back row champion gains @ASMultiplierUpgrade*100@% Attack Speed for @ASDurationUpgrade@ seconds.",
       "effects": {
-        "{6c71691e}": 1.0,
+        "{6c71691e}": 1.1500000953674316,
         "{707d81f7}": 8.0
       },
       "name": "Backrow Star"
@@ -57060,7 +57060,7 @@
     "DA_18_FOURcing": {
       "desc": "Gain a random 4-cost champion. For each item equipped to that champion, your team gains @Health@ health.",
       "effects": {
-        "Health": 120.0
+        "Health": 100.0
       },
       "name": "FOURcing"
     },
@@ -57114,16 +57114,10 @@
       "name": "Field of Mice"
     },
     "DA_18_FloraFatalisAugment": {
-      "desc": "Gain a Flora Fatalis emblem. The champion holding the emblem gains double benefits from the Flora Fatalis trait. Gain @Gold@ gold.",
+      "desc": "Gain a Flora Fatalis emblem. The champion holding the emblem gains @ExtraEffectiveness*100@% increased benefits from Flora Fatalis. Gain @Gold@ gold.",
       "effects": {
-        "Gold": 3.0
-      },
-      "name": "Consuming Flora"
-    },
-    "DA_18_FloraFatalisAugmentPlus": {
-      "desc": "Gain a Flora Fatalis emblem. The champion holding the emblem gains double benefits from the Flora Fatalis trait. Gain @PlusGold@ gold.",
-      "effects": {
-        "{22830bc3}": 3.0
+        "Gold": 3.0,
+        "{df808d3d}": 0.5
       },
       "name": "Consuming Flora"
     },
@@ -57154,14 +57148,14 @@
     "DA_18_GiantGrowth": {
       "desc": "Your highest Health unit grows, gaining @HPGain@ Health.",
       "effects": {
-        "{e26d6f9e}": 700.0
+        "{e26d6f9e}": 750.0
       },
       "name": "Giant Growth"
     },
     "DA_18_GiantGrowth_Upgrade": {
       "desc": "Your @NumUnitsUpgrade@ highest Health units grow, gaining @HPGainUpgrade@ Health.",
       "effects": {
-        "{58332efe}": 700.0,
+        "{58332efe}": 750.0,
         "{6d8a71ae}": 2.0
       },
       "name": "Giant Growth"
@@ -57225,9 +57219,9 @@
       "name": "Hummingbird"
     },
     "DA_18_InfernoTraitAugment": {
-      "desc": "The Inferno champion that dealt the most damage last combat is On Fire, gaining @AS*100@% Attack Speed. Gain a Varus and an Akali.",
+      "desc": "Your 1 and 2-cost Inferno champions gain @ADAP@ Attack Damage and Ability Power. The one who did the most damage last combat gains double. Gain a Varus and an Akali.",
       "effects": {
-        "AS": 0.5499999523162842
+        "ADAP": 0.20000000298023224
       },
       "name": "Flame On"
     },
@@ -57503,14 +57497,14 @@
     "DA_18_ProlificPower": {
       "desc": "Your champions gain @ADAP*100@% Attack Damage and Ability Power.",
       "effects": {
-        "ADAP": 0.07999999821186066
+        "ADAP": 0.03999999910593033
       },
       "name": "Prolific Power"
     },
     "DA_18_ProlificPower_Upgrade": {
       "desc": "Your champions gain @UpgradeADAP*100@% Attack Damage and Ability Power.",
       "effects": {
-        "{e3d9411b}": 0.15000000596046448
+        "{e3d9411b}": 0.05999999865889549
       },
       "name": "Prolific Power"
     },
@@ -57591,7 +57585,7 @@
     "DA_18_SolarTraitAugment": {
       "desc": "Gain a Leona, a Kayle, and a Sejuani. Leona gains @FlatHealth@ permanent max Health each round, increased by @HealthPerThreeStar@ for each unique 3-star champion fielded.",
       "effects": {
-        "FlatHealth": 60.0,
+        "FlatHealth": 70.0,
         "{ff019e0e}": 10.0
       },
       "name": "Chosen of the Sun"
@@ -57720,14 +57714,14 @@
     "DA_18_VerdantVitality": {
       "desc": "Your champions gain @HealthAmount@ Health.",
       "effects": {
-        "HealthAmount": 100.0
+        "HealthAmount": 50.0
       },
       "name": "Verdant Vitality"
     },
     "DA_18_VerdantVitality_Upgrade": {
       "desc": "Your champions gain @UpgradeHealthAmount@ Health.",
       "effects": {
-        "{73ad14ad}": 175.0
+        "{73ad14ad}": 75.0
       },
       "name": "Verdant Vitality"
     },
@@ -57772,14 +57766,14 @@
       "desc": "Sell your board and bench, gain @Gold@ gold and @Rerolls@ rerolls.",
       "effects": {
         "Gold": 6.0,
-        "Rerolls": 10.0
+        "Rerolls": 8.0
       },
       "name": "Abandon Ship"
     },
     "DA_AbandonShip18_Upgrade": {
       "desc": "Sell your board and bench, gain @GoldUpgrade@ gold and @RerollsUpgrade@ rerolls.",
       "effects": {
-        "{30bc37c4}": 12.0,
+        "{30bc37c4}": 10.0,
         "{726ae049}": 10.0
       },
       "name": "Abandon Ship"
@@ -57883,11 +57877,6 @@
       "effects": {},
       "name": "Dawncore"
     },
-    "DA_Artifact_DeathsDefiance": {
-      "desc": null,
-      "effects": {},
-      "name": "Death's Defiance"
-    },
     "DA_Artifact_EternalPact": {
       "desc": null,
       "effects": {},
@@ -57922,11 +57911,6 @@
       "desc": null,
       "effects": {},
       "name": "Horizon Focus"
-    },
-    "DA_Artifact_Hullcrusher": {
-      "desc": null,
-      "effects": {},
-      "name": "Hullcrusher"
     },
     "DA_Artifact_InfinityForce": {
       "desc": null,
@@ -58070,7 +58054,7 @@
       "desc": "Gain @AmountOfGlovesAtStartII@ Thief's Gloves. After @CombatsUntilNextRewardII@ player combats, gain another.",
       "effects": {
         "{1e541b17}": 2.0,
-        "{cd9faa42}": 6.0
+        "{cd9faa42}": 5.0
       },
       "name": "Band of Thieves II"
     },
@@ -58094,7 +58078,7 @@
       "desc": "Gain a random Tank item. After @StartSeconds@ seconds of combat, your team gains @Stats*100@% bonus Attack Damage and Ability Power every second for the rest of combat.<br><br><rules>TFT Paris Open, 2025</rules>",
       "effects": {
         "StartSeconds": 8.0,
-        "Stats": 0.05000000074505806
+        "Stats": 0.03999999910593033
       },
       "name": "Baron's Lair"
     },
@@ -58149,14 +58133,14 @@
     "DA_BeggarsWisp18": {
       "desc": "The wilds couldn't find a wisp for you this roll. Gain @Gold@ gold.",
       "effects": {
-        "Gold": 4.0
+        "Gold": 3.0
       },
       "name": "Beggar's Wisp"
     },
     "DA_BeggarsWisp18_Upgrade": {
       "desc": "The wilds couldn't find a wisp for you this roll. Gain @GoldUpgrade@ gold.",
       "effects": {
-        "{726ae049}": 6.0
+        "{726ae049}": 5.0
       },
       "name": "Beggar's Wisp"
     },
@@ -58216,7 +58200,7 @@
     "DA_BlackthornTraitAugment": {
       "desc": "The first @NumComponents@ times you sacrifice a champion in the Blackthorn hex, gain a copy of a random component they're holding. Gain a Veigar and a Rek'Sai.",
       "effects": {
-        "NumComponents": 3.0
+        "NumComponents": 4.0
       },
       "name": "Item Extraction"
     },
@@ -58301,7 +58285,7 @@
       "desc": "Whenever you open a loot orb, you have a @Chance*100@% chance to gain a gray loot orb. Gain @StartingOrbs@ gray loot orbs.",
       "effects": {
         "Chance": 0.25,
-        "{8ec37f1f}": 2.0
+        "{8ec37f1f}": 1.0
       },
       "name": "Bonus Gift"
     },
@@ -58309,7 +58293,7 @@
       "desc": "Whenever you open a loot orb, you have a @Chance*100@% chance to gain a gray loot orb. Gain @StartingOrbs@ gray loot orbs.",
       "effects": {
         "Chance": 0.25,
-        "{8ec37f1f}": 3.0
+        "{8ec37f1f}": 2.0
       },
       "name": "Bonus Gift+"
     },
@@ -58362,12 +58346,12 @@
       "name": "Border Village"
     },
     "DA_BorrowedGear18": {
-      "desc": "A champion gains a temporary recommended item.",
+      "desc": "At the start of combat, a champion gains a temporary recommended item.",
       "effects": {},
       "name": "Borrowed Gear"
     },
     "DA_BorrowedGear18_Upgrade": {
-      "desc": "A champion gains a temporary recommended item and @UpgradeHealth@<Set18CharmUpgrade> Health</Set18CharmUpgrade>.",
+      "desc": "At the start of combat, a champion gains a temporary recommended item and @UpgradeHealth@<Set18CharmUpgrade> Health</Set18CharmUpgrade>.",
       "effects": {
         "{f1950c41}": 250.0
       },
@@ -58447,16 +58431,9 @@
     "DA_BuriedTreasuresIII": {
       "desc": "Gain a random item component now and at the start of the next @RoundsDuration@ rounds.",
       "effects": {
-        "{bb1120a8}": 5.0
+        "{bb1120a8}": 6.0
       },
       "name": "Buried Treasures III"
-    },
-    "DA_CalculatedLoss": {
-      "desc": "After losing your combat, gain @Gold@ gold and a free Shop reroll.",
-      "effects": {
-        "Gold": 2.0
-      },
-      "name": "Calculated Loss"
     },
     "DA_CallToChaos": {
       "desc": "Gain a powerful and random reward.",
@@ -58487,7 +58464,7 @@
         "Round": 3.0,
         "Stage": 3.0,
         "{1c49a816}": 1.25,
-        "{66816927}": 1.0
+        "{66816927}": 3.0
       },
       "name": "Capital Gains II"
     },
@@ -58683,7 +58660,7 @@
       "desc": "Your team gains @HPPerMissingHP@ Health and @ASMultiplyPerMissingHP*100@% Attack Speed per missing player Health.",
       "effects": {
         "HPPerMissingHP": 4.0,
-        "{54f2d0e4}": 0.004000000189989805
+        "{54f2d0e4}": 0.003000000026077032
       },
       "name": "Comeback Story"
     },
@@ -58758,15 +58735,6 @@
       "effects": {},
       "name": "Tear Of The Goddess"
     },
-    "DA_ConstructACompanion": {
-      "desc": "The next @UnitCost@-cost champion you buy is @ActorLevel@-star. Gain @NumGold@ gold.",
-      "effects": {
-        "NumGold": 2.0,
-        "UnitCost": 1.0,
-        "{141b5538}": 3.0
-      },
-      "name": "Construct a Companion"
-    },
     "DA_Consumable_ChampionDuplicator": {
       "desc": null,
       "effects": {},
@@ -58837,6 +58805,20 @@
       },
       "name": "Cry Me A River"
     },
+    "DA_CrystalBall18": {
+      "desc": "Reveal your next opponent. Your team gains @AttackSpeed*100@% Attack Speed.",
+      "effects": {
+        "AttackSpeed": 0.12000000476837158
+      },
+      "name": "Crystal Ball"
+    },
+    "DA_CrystalBall18_Upgrade": {
+      "desc": "Reveal your next opponent. Your team gains @AttackSpeedUpgrade*100@% Attack Speed.",
+      "effects": {
+        "{101dcf04}": 0.1799999475479126
+      },
+      "name": "Crystal Ball"
+    },
     "DA_CurioCart18": {
       "desc": "Open an item store. Items cost 0 to @TooltipMaxCostOfItem@ gold.",
       "effects": {
@@ -58853,9 +58835,8 @@
       "name": "Curio Cart"
     },
     "DA_CursedCrown": {
-      "desc": "Gain +@MaxArmySizeIncrease@ max team size and your team gains @DurabilityBonus*100@% Durability, but you take double player damage when you lose a player combat.",
+      "desc": "Gain +@MaxArmySizeIncrease@ max team size, but you take double player damage when you lose a player combat.",
       "effects": {
-        "DurabilityBonus": 0.04000002145767212,
         "MaxArmySizeIncrease": 2.0
       },
       "name": "Cursed Crown"
@@ -58864,7 +58845,7 @@
       "desc": "Every @Timer@ seconds, your champions have a @PercentChance*100@% chance to drop @GoldDrop@ Gold.",
       "effects": {
         "Timer": 5.0,
-        "{59d091e2}": 0.15000000596046448,
+        "{59d091e2}": 0.20000000298023224,
         "{90187eca}": 1.0
       },
       "name": "Cutpurse"
@@ -58872,7 +58853,7 @@
     "DA_Cutpurse18_Upgrade": {
       "desc": "Every @Timer_Upgraded@ seconds, your champions have a @PercentChance*100@% chance to drop @GoldDrop@ Gold.",
       "effects": {
-        "{59d091e2}": 0.15000000596046448,
+        "{59d091e2}": 0.20000000298023224,
         "{627bf513}": 4.0,
         "{90187eca}": 1.0
       },
@@ -58985,14 +58966,6 @@
       },
       "name": "Doodad Sack"
     },
-    "DA_DoubleTrouble": {
-      "desc": "When you field exactly 2 copies of a champion, they both gain @DamageStatAdd*100@% Attack Damage and Ability Power and @DefenseStatAdd@ Armor, and Magic Resist. When you 3-star, gain a 2-star copy.",
-      "effects": {
-        "{14ae3030}": 25.0,
-        "{65020e89}": 0.25
-      },
-      "name": "Double Trouble"
-    },
     "DA_Downpour18": {
       "desc": "Your team gains @ManaRegen@ Mana Regen.",
       "effects": {
@@ -59028,7 +59001,7 @@
       "desc": "Lose all champions on your board and bench. Gain a Training Dummy with @CombinedHealthPercentage*100@% of their combined health. The dummy gains @HealthGainPerStage@ Health per stage. Gain a random non-tank 2-star 2 cost champion.",
       "effects": {
         "{9190ad30}": 0.6000000238418579,
-        "{acc6fa4b}": 1000.0
+        "{acc6fa4b}": 1150.0
       },
       "name": "Dummify"
     },
@@ -59261,17 +59234,8 @@
       "effects": {},
       "name": "Forest Twins"
     },
-    "DA_ForgeAFriend": {
-      "desc": "The next @UnitCost@-cost champion you buy is @ActorLevel@-star. Gain @NumGold@ gold.",
-      "effects": {
-        "NumGold": 5.0,
-        "UnitCost": 1.0,
-        "{141b5538}": 3.0
-      },
-      "name": "Forge A Friend"
-    },
     "DA_ForgedInStrength": {
-      "desc": "Gain @InitialArtifacts@ random Artifact. When you drop below @Health@ Health, gain @MoreArtifacts@ more random Artifact, @MoreCompletedItems@ random completed item, and @MoreComponents@ random component.<br><br><rules>Remix Rumble Championship, 2023</rules>",
+      "desc": "Gain @InitialArtifacts@ random Artifact. When you drop below @Health@ Health, gain @MoreArtifacts@ more random Artifact, @MoreCompletedItems@ random completed item, and @MoreComponents@ random components.<br><br><rules>Remix Rumble Championship, 2023</rules>",
       "effects": {
         "Health": 35.0,
         "{559cca94}": 2.0,
@@ -59384,7 +59348,7 @@
       "name": "Glass Cannon I"
     },
     "DA_GoingLong": {
-      "desc": "You no longer gain interest. Gain @GoldInstant@ gold now. Round start: gain @RoundStartBonusXp@ XP.<br><br><rules>Interest is extra gold you gain per </rules>@OldInterestThreshold@<rules>g saved.</rules>",
+      "desc": "You no longer gain interest. Gain @GoldInstant@ gold now. Gain @RoundStartBonusXp@ XP after every player combat.<br><br><rules>Interest is extra gold you gain per </rules>@OldInterestThreshold@<rules>g saved.</rules>",
       "effects": {
         "{1e108c20}": 10.0,
         "{677df9f0}": 4.0,
@@ -59402,7 +59366,7 @@
     "DA_GoldDestinyPlus": {
       "desc": "Gain a random Gold Augment and @Gold@ gold.",
       "effects": {
-        "Gold": 6.0
+        "Gold": 5.0
       },
       "name": "Gold Destiny+"
     },
@@ -59691,8 +59655,8 @@
     "DA_HoldTheLine": {
       "desc": "Champions in your back 2 rows gain @AbilityPowerPcntPerFrontLiner*100@% Ability Power and @AttackDamagePcntPerFrontLiner*100@% Attack Damage for each champion that starts combat in your front row.",
       "effects": {
-        "{910d2567}": 0.07999999821186066,
-        "{dac37571}": 0.09000000357627869
+        "{910d2567}": 0.09000000357627869,
+        "{dac37571}": 0.10000000149011612
       },
       "name": "Hold the Line"
     },
@@ -59802,7 +59766,7 @@
       "effects": {
         "InstantGold": 8.0,
         "{77dbf275}": 2.0,
-        "{da66a800}": 8.0
+        "{da66a800}": 10.0
       },
       "name": "Investment Strategy II"
     },
@@ -59834,28 +59798,28 @@
     "DA_IronCore18": {
       "desc": "Your front center champion gains @MaxHealthPerFrontRowUnit*100@% Max Health per front-row unit.",
       "effects": {
-        "{94e5ce49}": 0.039999961853027344
+        "{94e5ce49}": 0.059999942779541016
       },
       "name": "Iron Core"
     },
     "DA_IronCore18_Upgrade": {
       "desc": "Your front center champion gains @UpgradeMaxHealthPerFrontRowUnit*100@% Max Health per front-row unit.",
       "effects": {
-        "{7792756f}": 0.059999942779541016
+        "{7792756f}": 0.08000004291534424
       },
       "name": "Iron Core"
     },
     "DA_Ironwood18": {
       "desc": "Enemies attacking your highest health champion deal @DamageReduction*100@% less damage.",
       "effects": {
-        "DamageReduction": 0.11999999731779099
+        "DamageReduction": 0.14000000059604645
       },
       "name": "Ironwood"
     },
     "DA_Ironwood18_Upgrade": {
       "desc": "Enemies attacking your highest health champion deal @DamageReduction_Upgrade*100@% less damage.",
       "effects": {
-        "{57df3692}": 0.18000000715255737
+        "{57df3692}": 0.20000000298023224
       },
       "name": "Ironwood"
     },
@@ -59937,14 +59901,14 @@
       "desc": "Your first @NumUnits@ champions to die stun their killer for @StunDuration@ seconds.",
       "effects": {
         "NumUnits": 3.0,
-        "StunDuration": 1.25
+        "StunDuration": 1.5
       },
       "name": "Killer's Regret"
     },
     "DA_KillersRegretUpgrade18": {
       "desc": "Your first @NumUnitsUpgrade@ champions to die stun their killer for @StunDurationUpgrade@ second.",
       "effects": {
-        "{371528cb}": 1.5,
+        "{371528cb}": 1.75,
         "{6d8a71ae}": 4.0
       },
       "name": "Killer's Regret"
@@ -59999,6 +59963,14 @@
         "{b29e473b}": 4.0
       },
       "name": "Knick-Knack Sack"
+    },
+    "DA_KnowYourEnemy": {
+      "desc": "You can see who you will fight next. Your team gains @DefaultDamageAmp*100@% Damage Amp, increased to @SharedTraitDamageAmp*100@% if you and your opponent have any of the same traits active.",
+      "effects": {
+        "{2b91485b}": 0.07999999821186066,
+        "{9b25dff5}": 0.15000000596046448
+      },
+      "name": "Know Your Enemy"
     },
     "DA_KrakensFury": {
       "desc": null,
@@ -60100,7 +60072,7 @@
     "DA_LivingForge": {
       "desc": "Gain an Artifact Anvil now and after every @RoundCounter@ player combats.",
       "effects": {
-        "{1accd79d}": 9.0
+        "{1accd79d}": 10.0
       },
       "name": "Living Forge"
     },
@@ -60289,18 +60261,6 @@
       },
       "name": "Max Build"
     },
-    "DA_MemorialDummy18": {
-      "desc": "Your first itemized tank spawns a Dummy with their items on death.",
-      "effects": {},
-      "name": "Memorial Dummy"
-    },
-    "DA_MemorialDummy18_Upgrade": {
-      "desc": "The first @Upgrade_DummyAmount@ tanks that die spawns a Training Dummy with their items.",
-      "effects": {
-        "{2f6ceba8}": 2.0
-      },
-      "name": "Memorial Dummy"
-    },
     "DA_MiddlePath18": {
       "desc": "Reroll your shop with all 2-star 3-cost champions.",
       "effects": {},
@@ -60325,7 +60285,7 @@
       "desc": "Gain @InitialGoldPlus@ gold now, then @GoldPerStagePlus@ gold at the start of every stage. Picking up gold makes your Tactician larger.",
       "effects": {
         "{bac4bc6c}": 7.0,
-        "{f3c91381}": 10.0
+        "{f3c91381}": 13.0
       },
       "name": "Money Hungry+"
     },
@@ -60405,14 +60365,14 @@
     "DA_NestingAnvils": {
       "desc": "Gain an Artifact Anvil. After you open it, gain a Component Anvil. After you open that, gain @Gold@ gold.",
       "effects": {
-        "Gold": 8.0
+        "Gold": 4.0
       },
       "name": "Nesting Anvils"
     },
     "DA_NestingAnvilsPlus": {
       "desc": "Gain an Artifact Anvil. After you open it, gain a Component Anvil. After you open that, gain @Gold@ gold.",
       "effects": {
-        "Gold": 12.0
+        "Gold": 8.0
       },
       "name": "Nesting Anvils+"
     },
@@ -60683,7 +60643,7 @@
     "DA_PrismaticDestinyPlus": {
       "desc": "Gain a random Prismatic Augment and @Gold@ gold.",
       "effects": {
-        "Gold": 10.0
+        "Gold": 7.0
       },
       "name": "Prismatic Destiny+"
     },
@@ -60973,7 +60933,7 @@
     "DA_ShimmerscaleEssence": {
       "desc": "Gain a Mogul's Mail. After @NumberOfRoundsToWait@  player combats, gain a Gamblers Blade.",
       "effects": {
-        "{9b9fe148}": 7.0
+        "{9b9fe148}": 8.0
       },
       "name": "Shimmerscale Essence"
     },
@@ -61079,14 +61039,14 @@
     "DA_Snacktime18": {
       "desc": "The BFF eats enemies he damages under @ExecuteThreshold*100@% Max Health.",
       "effects": {
-        "ExecuteThreshold": 0.15000000596046448
+        "ExecuteThreshold": 0.1599999964237213
       },
       "name": "Snacktime!"
     },
     "DA_Snacktime18_Upgrade": {
       "desc": "The BFF eats enemies he damages under @ExecuteThresholdUpgrade*100@% Max Health.",
       "effects": {
-        "{0f6cb861}": 0.20000000298023224
+        "{0f6cb861}": 0.2199999988079071
       },
       "name": "Snacktime!"
     },
@@ -61185,15 +61145,14 @@
       "name": "Radiant Spirit Visage"
     },
     "DA_SpreadingRoots": {
-      "desc": "Gain @EmblemAmount@ random Emblems and @GoldAmount@ gold.",
+      "desc": "Gain a random Emblems. After @Delay@ combats, gain another.",
       "effects": {
-        "GoldAmount": 1.0,
-        "{bd12a44f}": 2.0
+        "Delay": 3.0
       },
       "name": "Spreading Roots"
     },
     "DA_SpreadingRootsPlus": {
-      "desc": "Gain @EmblemAmountPlus@ random Emblems, a Reforger, and @GoldAmountPlus@ gold.",
+      "desc": "Gain @EmblemAmountPlus@ random Emblems and @GoldAmountPlus@ gold.",
       "effects": {
         "{1a129973}": 2.0,
         "{c99cbe2b}": 2.0
@@ -61359,22 +61318,22 @@
     "DA_Terraforming18": {
       "desc": "Gain @Seeds@ seeds at start of combat.",
       "effects": {
-        "{3cc8530d}": 5.0
+        "{3cc8530d}": 7.0
       },
       "name": "Terraforming"
     },
     "DA_Terraforming18_Upgrade": {
       "desc": "Gain @SeedsUpgrade@ seeds at start of combat.",
       "effects": {
-        "{9debba8f}": 9.0
+        "{9debba8f}": 10.0
       },
       "name": "Terraforming"
     },
     "DA_TheGoldenDragon": {
       "desc": "Gain a Mogul's Mail. Champions holding Mogul's Mail take up +@IncreasedTeamSizeContribution@ team slot but gain @BonusHealth@ Health and @BonusDurability*100@% Durability.<br><br><rules>Mogul's Mail gives gold as well as combat power.</rules><br><rules>Dragonlands Championship, 2022</rules>",
       "effects": {
-        "BonusDurability": 0.20000000298023224,
-        "BonusHealth": 700.0,
+        "BonusDurability": 0.15000000596046448,
+        "BonusHealth": 600.0,
         "{857f7819}": 1.0
       },
       "name": "The Golden Dragon"
@@ -99907,7 +99866,7 @@
           "minUnits": 4,
           "style": 3,
           "variables": {
-            "Health": 300.0,
+            "Health": 350.0,
             "StatMultiplier": 0.2999999523162842
           }
         },
@@ -99916,7 +99875,7 @@
           "minUnits": 6,
           "style": 5,
           "variables": {
-            "Health": 550.0,
+            "Health": 600.0,
             "StatMultiplier": 0.6000000238418579
           }
         }
@@ -99948,7 +99907,7 @@
           "minUnits": 7,
           "style": 5,
           "variables": {
-            "ADAP": 0.4000000059604645,
+            "ADAP": 0.44999998807907104,
             "BonusHealth": 0.10000002384185791,
             "{91925b8e}": 4.0
           }
@@ -99958,7 +99917,7 @@
           "minUnits": 9,
           "style": 5,
           "variables": {
-            "ADAP": 0.44999998807907104,
+            "ADAP": 0.5,
             "BonusHealth": 0.10000002384185791
           }
         },
@@ -100200,7 +100159,7 @@
           "style": 1,
           "variables": {
             "ADAP": 5.0,
-            "Heal": 2.0,
+            "Heal": 2.5,
             "HealThreshold": 0.5
           }
         },
@@ -100241,7 +100200,7 @@
           "variables": {
             "DamageAmp": 0.10000000149011612,
             "{641254b6}": 0.20000000298023224,
-            "{83011ee7}": 4.0
+            "{83011ee7}": 3.0
           }
         },
         {
@@ -100251,7 +100210,7 @@
           "variables": {
             "DamageAmp": 0.10000000149011612,
             "{641254b6}": 0.30000001192092896,
-            "{83011ee7}": 4.0
+            "{83011ee7}": 3.0
           }
         },
         {
@@ -100261,7 +100220,7 @@
           "variables": {
             "DamageAmp": 0.10000000149011612,
             "{641254b6}": 0.44999998807907104,
-            "{83011ee7}": 4.0
+            "{83011ee7}": 3.0
           }
         },
         {
@@ -100271,7 +100230,7 @@
           "variables": {
             "DamageAmp": 0.10000000149011612,
             "{641254b6}": 0.6499999761581421,
-            "{83011ee7}": 4.0
+            "{83011ee7}": 3.0
           }
         }
       ],
@@ -100284,7 +100243,7 @@
           "minUnits": 2,
           "style": 1,
           "variables": {
-            "Duration": 4.0,
+            "Duration": 3.0,
             "WoundPercent": 33.0,
             "{2c202877}": 1.0
           }
@@ -100294,7 +100253,7 @@
           "minUnits": 3,
           "style": 3,
           "variables": {
-            "Duration": 4.0,
+            "Duration": 3.0,
             "{c4c70a4e}": 1.0
           }
         },
@@ -100303,8 +100262,8 @@
           "minUnits": 5,
           "style": 5,
           "variables": {
-            "Duration": 4.0,
-            "{2c202877}": 2.0,
+            "Duration": 3.0,
+            "{2c202877}": 3.5,
             "{c4c70a4e}": 2.0
           }
         },
@@ -100313,8 +100272,8 @@
           "minUnits": 7,
           "style": 5,
           "variables": {
-            "Duration": 4.0,
-            "{2c202877}": 3.0,
+            "Duration": 3.0,
+            "{2c202877}": 4.5,
             "{c4c70a4e}": 4.0
           }
         }
@@ -100550,15 +100509,15 @@
           "minUnits": 3,
           "style": 5,
           "variables": {
-            "BonusMagicDamage": 0.07000000029802322,
+            "BonusMagicDamage": 0.07999999821186066,
             "ShieldRatio": 0.05000000074505806,
             "{092e2b2b}": 3.0,
             "{0a2e2cbe}": 5.0,
             "{0b2e2e51}": 8.0,
-            "{5cfe766f}": 0.5,
-            "{617a160e}": 0.1799999475479126,
+            "{5cfe766f}": 0.4000000059604645,
+            "{617a160e}": 0.1499999761581421,
             "{7e77da03}": 15.0,
-            "{a51b2ace}": 0.014999999664723873,
+            "{a51b2ace}": 0.009999999776482582,
             "{d91f7c21}": 4.0
           }
         }
@@ -100643,7 +100602,8 @@
           "variables": {
             "DamageMult": 0.4500000476837158,
             "{1cb64e3c}": 4.0,
-            "{5311f791}": 0.2999999523162842
+            "{5311f791}": 0.2999999523162842,
+            "{6bba9a92}": 0.20000004768371582
           }
         },
         {
@@ -100653,7 +100613,8 @@
           "variables": {
             "DamageMult": 0.4500000476837158,
             "{1cb64e3c}": 4.0,
-            "{5311f791}": 0.2999999523162842
+            "{5311f791}": 0.2999999523162842,
+            "{6bba9a92}": 0.20000004768371582
           }
         }
       ],
@@ -100677,7 +100638,7 @@
           "style": 3,
           "variables": {
             "HealthThreshold": 0.5,
-            "MaxHealthShield": 0.3199999928474426,
+            "MaxHealthShield": 0.30000001192092896,
             "ShieldDuration": 10.0
           }
         },
@@ -100687,7 +100648,7 @@
           "style": 5,
           "variables": {
             "HealthThreshold": 0.5,
-            "MaxHealthShield": 0.41999998688697815,
+            "MaxHealthShield": 0.4000000059604645,
             "ShieldDuration": 10.0,
             "{b58e0b6e}": 0.050000011920928955
           }
@@ -100783,7 +100744,7 @@
           "minUnits": 4,
           "style": 3,
           "variables": {
-            "{6eab9c5e}": 0.30000001192092896,
+            "{6eab9c5e}": 0.32999998331069946,
             "{f8c73243}": 0.06000000238418579
           }
         },
@@ -100792,7 +100753,7 @@
           "minUnits": 6,
           "style": 5,
           "variables": {
-            "{6eab9c5e}": 0.3999999761581421,
+            "{6eab9c5e}": 0.44999998807907104,
             "{f8c73243}": 0.07999998331069946
           }
         }
@@ -100837,12 +100798,12 @@
           "minUnits": 7,
           "style": 5,
           "variables": {
-            "{0776b071}": 0.05999999865889549,
+            "{0776b071}": 0.05000000074505806,
             "{08cfb22e}": 50.0,
             "{0d6c2c87}": 5.0,
-            "{1b76cfed}": 0.05999999865889549,
+            "{1b76cfed}": 0.05000000074505806,
             "{3230276c}": 1.0,
-            "{4e1998f4}": 0.059999942779541016,
+            "{4e1998f4}": 0.04999995231628418,
             "{a8c6eeaf}": 5.0
           }
         },
