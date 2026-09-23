@@ -41430,7 +41430,7 @@
         "attackSpeed": 0.800000011920929,
         "critChance": 0.25,
         "critMultiplier": 1.399999976158142,
-        "damage": 65.0,
+        "damage": 62.0,
         "hp": 850.0,
         "initialMana": 0,
         "magicResist": 55.0,
@@ -41469,7 +41469,7 @@
     },
     "set18:DA_18_Ornn": {
       "ability": {
-        "desc": "<Bright>Active:</Bright> Gain @ShieldCalc1@ %i:scaleAP% Shield for @ShieldDuration@ seconds and deal @MagicDamageCalc1@ %i:scaleAP% magic damage to enemies in a cone. \r\\n\r\\n<Bright>Quest:</Bright> Each player combat, Ornn stores damage blocked as Forge Power, doubled at 3-star. Gain an Artifact Anvil each time he gains enough Forge Power. <Rules>(Forge Power: </Rules>@Stack@<Rules> / </Rules>@GenericCalc1@<Rules>)</Rules>",
+        "desc": "<Bright>Active:</Bright> Gain @ShieldCalc1@ %i:scaleAP% Shield for @ShieldDuration@ seconds and deal @MagicDamageCalc1@ %i:scaleAP% magic damage to enemies in a cone. \r\\n\r\\n<Bright>Quest:</Bright> Each player combat, Ornn stores damage blocked as Forge Power, increased by @DamageTaken3StarScalar@ at 3-star. Gain an Artifact Anvil each time he gains enough Forge Power. <Rules>(Forge Power: </Rules>@Stack@<Rules> / </Rules>@GenericCalc1@<Rules>)</Rules>",
         "name": "Bellows Breath",
         "variables": []
       },
@@ -41578,7 +41578,7 @@
       "name": "Rengar",
       "stats": {
         "armor": 55.0,
-        "attackSpeed": 0.800000011920929,
+        "attackSpeed": 0.75,
         "critChance": 0.25,
         "critMultiplier": 1.399999976158142,
         "damage": 60.0,
@@ -42009,7 +42009,7 @@
         "attackSpeed": 0.550000011920929,
         "critChance": 0.25,
         "critMultiplier": 1.399999976158142,
-        "damage": 115.0,
+        "damage": 120.0,
         "hp": 1100.0,
         "initialMana": 0,
         "magicResist": 65.0,
@@ -57726,7 +57726,7 @@
       "name": "Verdant Vitality"
     },
     "DA_18_WeightTheWorth": {
-      "desc": "The first time you 3-star a champion, gain a copy of them each round for the rest of the game. 3-starring the same champion again grants additional copies. Gain a Lesser Champion Duplicator and a Tiny Champion Duplicator.",
+      "desc": "The first time you 3-star a champion, gain a copy of them each round for the rest of the game. 3-starring the same champion again grants additional copies. Gain a Lesser Champion Duplicator.",
       "effects": {},
       "name": "Weight The Worth"
     },
@@ -57911,6 +57911,11 @@
       "desc": null,
       "effects": {},
       "name": "Horizon Focus"
+    },
+    "DA_Artifact_Hullcrusher": {
+      "desc": null,
+      "effects": {},
+      "name": "Hullcrusher"
     },
     "DA_Artifact_InfinityForce": {
       "desc": null,
@@ -58198,9 +58203,9 @@
       "name": "Birthday Reunion"
     },
     "DA_BlackthornTraitAugment": {
-      "desc": "The first @NumComponents@ times you sacrifice a champion in the Blackthorn hex, gain a copy of a random component they're holding. Gain a Veigar and a Rek'Sai.",
+      "desc": "The first @NumComponents@ times you sacrifice a champion in the Blackthorn hex, gain a copy of a random component they're holding. Gain an Azir, Veigar, and a Rek'Sai.",
       "effects": {
-        "NumComponents": 4.0
+        "NumComponents": 3.0
       },
       "name": "Item Extraction"
     },
@@ -58287,7 +58292,7 @@
         "Chance": 0.25,
         "{8ec37f1f}": 1.0
       },
-      "name": "Bonus Gift"
+      "name": "Bonus Gifts"
     },
     "DA_BonusGiftPlus": {
       "desc": "Whenever you open a loot orb, you have a @Chance*100@% chance to gain a gray loot orb. Gain @StartingOrbs@ gray loot orbs.",
@@ -58295,7 +58300,7 @@
         "Chance": 0.25,
         "{8ec37f1f}": 2.0
       },
-      "name": "Bonus Gift+"
+      "name": "Bonus Gifts+"
     },
     "DA_BoosterPack": {
       "desc": "Gain @CombinedChampsValueNormal@ gold of random champions. (At least one @GuaranteedChampValueNormal@-cost guaranteed!)",
@@ -58638,7 +58643,7 @@
     "DA_Combust18": {
       "desc": "Your champions explode on death, dealing @maxHealthExplosionDamage*100@% Max Health magic damage.",
       "effects": {
-        "{8e1bf27f}": 0.15000000596046448
+        "{8e1bf27f}": 0.11999999731779099
       },
       "name": "Combust"
     },
@@ -58822,7 +58827,7 @@
     "DA_CurioCart18": {
       "desc": "Open an item store. Items cost 0 to @TooltipMaxCostOfItem@ gold.",
       "effects": {
-        "{72eb58d9}": 15.0
+        "{72eb58d9}": 22.0
       },
       "name": "Curio Cart"
     },
@@ -58830,22 +58835,15 @@
       "desc": "Open an item store. Items cost 0 to @TooltipMaxCostOfItem@ gold. <Set18CharmUpgrade>Gain </Set18CharmUpgrade>@UpgradeGoldGain@<Set18CharmUpgrade> Gold.</Set18CharmUpgrade>",
       "effects": {
         "{0fb627ae}": 2.0,
-        "{72eb58d9}": 15.0
+        "{72eb58d9}": 22.0
       },
       "name": "Curio Cart"
-    },
-    "DA_CursedCrown": {
-      "desc": "Gain +@MaxArmySizeIncrease@ max team size, but you take double player damage when you lose a player combat.",
-      "effects": {
-        "MaxArmySizeIncrease": 2.0
-      },
-      "name": "Cursed Crown"
     },
     "DA_Cutpurse18": {
       "desc": "Every @Timer@ seconds, your champions have a @PercentChance*100@% chance to drop @GoldDrop@ Gold.",
       "effects": {
         "Timer": 5.0,
-        "{59d091e2}": 0.20000000298023224,
+        "{59d091e2}": 0.15000000596046448,
         "{90187eca}": 1.0
       },
       "name": "Cutpurse"
@@ -58853,7 +58851,7 @@
     "DA_Cutpurse18_Upgrade": {
       "desc": "Every @Timer_Upgraded@ seconds, your champions have a @PercentChance*100@% chance to drop @GoldDrop@ Gold.",
       "effects": {
-        "{59d091e2}": 0.20000000298023224,
+        "{59d091e2}": 0.15000000596046448,
         "{627bf513}": 4.0,
         "{90187eca}": 1.0
       },
@@ -59097,6 +59095,11 @@
         "Gold": 7.0
       },
       "name": "Exclusive Customization"
+    },
+    "DA_ExpectedUnexpectedness": {
+      "desc": "Now and at the start of the next 2 stages, roll 3 dice. Gain various rewards based on their total.",
+      "effects": {},
+      "name": "Expected Unexpectedness"
     },
     "DA_Expedition": {
       "desc": "At the start of every round, lose the champion in the rightmost bench slot. After losing @CashoutCost@ gold of champions in this way, gain a powerful reward. Gain a 3-cost champion now.",
@@ -59834,7 +59837,7 @@
       "name": "Talisman of Ascension"
     },
     "DA_ItsMeBaby": {
-      "desc": "Gain a spotlight in the bottom right corner. The champion in it gains @DamageAmpPercent*100@% Damage Amp and @AttackSpeed*100@% Attack Speed, and drops @GoldToGrant@ gold every @TakedownsPerGold@ takedowns.<br><br><rules>Lore & Legends Tactician's Crown, 2026</rules>",
+      "desc": "Gain a championship hex in the bottom right corner. The champion in it gains @DamageAmpPercent*100@% Damage Amp and @AttackSpeed*100@% Attack Speed, and drops @GoldToGrant@ gold every @TakedownsPerGold@ takedowns.<br><br><rules>Lore & Legends Tactician's Crown, 2026</rules>",
       "effects": {
         "AttackSpeed": 0.1499999761581421,
         "DamageAmpPercent": 0.15000000596046448,
@@ -60682,8 +60685,8 @@
     "DA_Quicken18": {
       "desc": "On cast, your champions gain @AttackSpeedGain*100@% Attack Speed for @Duration@ seconds.",
       "effects": {
-        "Duration": 4.0,
-        "{f5c9e48b}": 0.2999999523162842
+        "AttackSpeedGain": 0.2999999523162842,
+        "Duration": 4.0
       },
       "name": "Quicken"
     },
@@ -60931,14 +60934,14 @@
       "name": "Seraphim's Staff"
     },
     "DA_ShimmerscaleEssence": {
-      "desc": "Gain a Mogul's Mail. After @NumberOfRoundsToWait@  player combats, gain a Gamblers Blade.",
+      "desc": "Gain a Gambler's Blade. After @NumberOfRoundsToWait@ player combats, gain a Mogul's Mail.",
       "effects": {
-        "{9b9fe148}": 8.0
+        "{9b9fe148}": 6.0
       },
       "name": "Shimmerscale Essence"
     },
     "DA_ShoppingSpree": {
-      "desc": "When you level up, gain a number of free shop refreshes equal to your level +@BonusRollPerLevel@. Gain @GoldGain@ gold.",
+      "desc": "When you level up, gain a number of Shop refreshes equal to your level +@BonusRollPerLevel@. Gain @GoldGain@ gold.",
       "effects": {
         "BonusRollPerLevel": 1.0,
         "GoldGain": 6.0
@@ -61476,14 +61479,14 @@
       "name": "TONS of Stats!"
     },
     "DA_TradeSector": {
-      "desc": "Gain a free Shop reroll every round. Gain @NumGold@ gold.",
+      "desc": "Gain a Shop reroll every round. Gain @NumGold@ gold.",
       "effects": {
         "NumGold": 2.0
       },
       "name": "Trade Sector"
     },
     "DA_TradeSectorPlus": {
-      "desc": "Gain a free Shop reroll every round. Gain @NumGoldPlus@ gold.",
+      "desc": "Gain a Shop reroll every round. Gain @NumGoldPlus@ gold.",
       "effects": {
         "{96ce7ab1}": 8.0
       },
@@ -61570,10 +61573,10 @@
       "name": "U.R.F"
     },
     "DA_UpwardMobility": {
-      "desc": "Buying XP costs @ReducedXPCost@ less. Gain @HealthOnLevelUp@ Health and @RerollsOnLevelUp@ free reroll whenever you level up.",
+      "desc": "Buying XP costs @ReducedXPCost@ less. Gain @HealthOnLevelUp@ Health and @RerollsOnLevelUp@ Shop rerolls whenever you level up.",
       "effects": {
         "{0ef06055}": 2.0,
-        "{3e85783c}": 1.0,
+        "{3e85783c}": 2.0,
         "{9ba044dc}": 1.0
       },
       "name": "Upward Mobility"
@@ -100288,7 +100291,7 @@
           "style": 1,
           "variables": {
             "TeamManaRegen": 1.0,
-            "{de27cb95}": 3.0
+            "{de27cb95}": 2.0
           }
         },
         {
@@ -100297,7 +100300,7 @@
           "style": 3,
           "variables": {
             "TeamManaRegen": 1.0,
-            "{de27cb95}": 4.0
+            "{de27cb95}": 3.0
           }
         },
         {
@@ -100306,7 +100309,7 @@
           "style": 3,
           "variables": {
             "TeamManaRegen": 2.0,
-            "{de27cb95}": 6.0
+            "{de27cb95}": 5.0
           }
         },
         {
@@ -100315,7 +100318,7 @@
           "style": 5,
           "variables": {
             "TeamManaRegen": 2.0,
-            "{de27cb95}": 9.0
+            "{de27cb95}": 8.0
           }
         }
       ],
