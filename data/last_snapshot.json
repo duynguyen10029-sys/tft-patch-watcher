@@ -40657,7 +40657,7 @@
     },
     "set18:DA_18_Ashe": {
       "ability": {
-        "desc": "Fire an arrow through the most enemies in a line that deals @PhysicalDamageCalc1@ %i:scaleAD% physical damage, reduced by @DamageFalloffPerEnemy@ per enemy hit (minimum @MinDamagePercent@). \r\\n\r\\nThe arrow leaves a trail for @RiftDuration@ seconds that deals @PhysicalDamageCalc2@ %i:scaleAD%%i:scaleAP% + @MaxHealthDamagePerSecond@ max Health physical damage per second to enemies within and @ChillPercent@% <Keyword>Slows</Keyword> them.\r\\n\r\\n<Rules>Slow: Reduce Attack Speed</Rules>",
+        "desc": "Fire an arrow through the most enemies in a line that deals @PhysicalDamageCalc1@ %i:scaleAD% physical damage, reduced by @DamageFalloffPerEnemy@ per enemy hit (minimum @MinDamagePercent@). If no enemies are hit refund @ManaRefund@ of mana spent.\r\\n\r\\nThe arrow leaves a trail for @RiftDuration@ seconds that deals @PhysicalDamageCalc2@ %i:scaleAD%%i:scaleAP% + @MaxHealthDamagePerSecond@ max Health physical damage per second to enemies within and @ChillPercent@% <Keyword>Slows</Keyword> them.\r\\n\r\\n<Rules>Slow: Reduce Attack Speed</Rules>",
         "name": "Spirit Rift",
         "variables": []
       },
@@ -40670,7 +40670,7 @@
         "critMultiplier": 1.399999976158142,
         "damage": 75.0,
         "hp": 900.0,
-        "initialMana": 20.0,
+        "initialMana": 0,
         "magicResist": 45.0,
         "mana": 80.0,
         "range": 6.0
@@ -40798,7 +40798,7 @@
         "hp": 850.0,
         "initialMana": 0,
         "magicResist": 50.0,
-        "mana": 30.0,
+        "mana": 40.0,
         "range": 1.0
       },
       "traits": [
@@ -40859,7 +40859,7 @@
     },
     "set18:DA_18_Ezreal": {
       "ability": {
-        "desc": "Blink away from the current target, deal @PhysicalDamageCalc1@ %i:scaleAD% physical damage to them, and gain @AttackSpeedCalc1@ %i:scaleAP% Attack Speed. \r\\n\r\\nEvery 4th cast consumes the Attack Speed granted from Nature's Wrath and fires a blast through the largest group of enemies that deals @PhysicalDamageCalc2@ %i:scaleAD% physical damage, reduced by @DamageReductionPerHit@ for each enemy it passes through (minimum @MinDamagePercent@).",
+        "desc": "Blink away from the current target, deal @PhysicalDamageCalc1@ %i:scaleAD% physical damage to them, and gain @AttackSpeedCalc1@ %i:scaleAP% Attack Speed. \r\\n\r\\nEvery 4th cast consumes the Attack Speed granted from Forest's Flurry and fires a blast through the largest group of enemies that deals @PhysicalDamageCalc2@ %i:scaleAD% physical damage, reduced by @DamageReductionPerHit@ for each enemy it passes through (minimum @MinDamagePercent@).",
         "name": "Forest's Flurry",
         "variables": []
       },
@@ -41344,7 +41344,7 @@
     },
     "set18:DA_18_Lux_Sunbeam": {
       "ability": {
-        "desc": "<bright>Passive:</bright> On cast, all allies that share a trait with Lux gain @ManaCalc1@ %i:scaleAP% mana. \r\\n\r\\n<bright>Active:</bright> Fire a laser towards the most enemies in a line that deals @MagicDamageCalc1@ %i:scaleAP% magic damage, reduced by @DamageReductionPerUnit@ for each enemy hit (minimum @MinimumFalloffDamageRatio@).\r\\n\r\\n<bright>Solar Bonus:</bright> Deals @SolarBonusDamagePer3StarRadio@ bonus damage for each unique 3-star champion fielded.",
+        "desc": "<bright>Passive:</bright> On cast, all allies that share a trait with Lux gain @ManaCalc1@ %i:scaleAP% mana. \r\\n\r\\n<bright>Active:</bright> Fire a laser towards the most enemies in a line that deals @MagicDamageCalc1@ %i:scaleAP% magic damage, reduced by @DamageReductionPerUnit@ for each enemy hit (minimum @MinimumFalloffDamageRatio@).\r\\n\r\\n<bright>Solar Bonus:</bright> Deal @SolarBonusDamageRatio@ bonus damage. For each unique 3-star champion fielded, deal an additional @SolarBonusDamagePer3StarRadio@ bonus damage.",
         "name": "Final Spark",
         "variables": []
       },
@@ -41409,7 +41409,7 @@
         "hp": 1150.0,
         "initialMana": 30.0,
         "magicResist": 60.0,
-        "mana": 90.0,
+        "mana": 100,
         "range": 1.0
       },
       "traits": [
@@ -41430,7 +41430,7 @@
         "attackSpeed": 0.800000011920929,
         "critChance": 0.25,
         "critMultiplier": 1.399999976158142,
-        "damage": 62.0,
+        "damage": 60.0,
         "hp": 850.0,
         "initialMana": 0,
         "magicResist": 55.0,
@@ -42074,7 +42074,7 @@
     },
     "set18:DA_Draven18": {
       "ability": {
-        "desc": "<bright>Passive:</bright> Attacks target random enemies in range and apply a bleed that deals @PhysicalDamageCalc1@ %i:scaleAD% physical damage over @BleedDuration@ seconds. Every attack has a @GenericCalc1@ %i:scaleAP% chance to deal @SpinningAxeDamageRatio@ bonus physical damage and apply @SpinningAxeBleedStacks@ bleeds instead. \r\\n\r\\n<bright>Active:</bright> Throw two giant axes towards the enemy with the most bleeds. Deal @PhysicalDamageCalc3@ %i:scaleAD% physical damage to enemies hit and consume their bleed, instantly dealing the remaining damage. The axes then return, dealing @GenericCalc2@ %i:scaleAD% physical damage to enemies hit. ",
+        "desc": "<bright>Passive:</bright> Attacks target random enemies in range and apply a bleed that deals @PhysicalDamageCalc1@ %i:scaleAD% physical damage over @BleedDuration@ seconds. Every attack has a @GenericCalc1@ %i:scaleAP% chance to deal @SpinningAxeDamageRatio@ bonus physical damage and apply @SpinningAxeBleedStacks@ bleeds instead.\r\\n\r\\n<bright>Active:</bright> Throw two giant axes towards the enemy with the most bleeds. Deal @PhysicalDamageCalc3@ %i:scaleAD% physical damage to enemies hit and consume their bleed, instantly dealing the remaining damage. The axes then return, dealing @GenericCalc2@ %i:scaleAD% physical damage to enemies hit. If no enemies are hit refund @ManaRefund@ of mana spent.",
         "name": "Whirling Death",
         "variables": []
       },
@@ -42425,7 +42425,7 @@
     },
     "set18:DA_Vi18": {
       "ability": {
-        "desc": "<bright>Passive:</bright> On attack, restore @HealthCalc1@ %i:scaleHealth% Health.\r\\n\r\\n<bright>Active:</bright> Unleash a primal roar, restoring @HealthCalc3@ %i:scaleAP% Health. Then gain @SpellAS@ Attack Speed, @SpellDurability@ Durability, and is Unstoppable for @SpellDuration@ seconds.",
+        "desc": "<bright>Passive:</bright> On attack, restore @HealthCalc1@ %i:scaleHealth% Health.\r\\n\r\\n<bright>Active:</bright> Unleash a primal roar, restoring @HealthCalc3@ %i:scaleAP% Health. Then gain @SpellAS@ Attack Speed, @SpellDurability@ Durability, and is unstoppable for @SpellDuration@ seconds.",
         "name": "Furious Fists",
         "variables": []
       },
@@ -56910,6 +56910,22 @@
       "effects": {},
       "name": "Dark Ritual"
     },
+    "DA_18_Drizzle": {
+      "desc": "After @Delay@ seconds of combat, your team gains @ManaToGain@ Mana.",
+      "effects": {
+        "Delay": 8.0,
+        "{2d7e43a8}": 10.0
+      },
+      "name": "Drizzle"
+    },
+    "DA_18_Drizzle_Upgrade": {
+      "desc": "After @Delay@ seconds of combat, your team gains @ManaToGainUpgrade@ Mana.",
+      "effects": {
+        "Delay": 8.0,
+        "{6d8ce3e4}": 15.0
+      },
+      "name": "Drizzle"
+    },
     "DA_18_DuoQueue": {
       "desc": "Gain 2 random 5-cost champions and 2 copies of a random component.",
       "effects": {},
@@ -57103,16 +57119,6 @@
       },
       "name": "Fertilize"
     },
-    "DA_18_FieldofMice": {
-      "desc": "Gain a Tiny Champion Duplicator for each unique one-cost fielded last round.",
-      "effects": {},
-      "name": "Field of Mice"
-    },
-    "DA_18_FieldofMice_Upgrade": {
-      "desc": "Gain a Tiny Duplicator <Set18CharmUpgrade>and a gold</Set18CharmUpgrade> for each unique 1-cost champion you fielded last round.",
-      "effects": {},
-      "name": "Field of Mice"
-    },
     "DA_18_FloraFatalisAugment": {
       "desc": "Gain a Flora Fatalis emblem. The champion holding the emblem gains @ExtraEffectiveness*100@% increased benefits from Flora Fatalis. Gain @Gold@ gold.",
       "effects": {
@@ -57168,6 +57174,22 @@
       },
       "name": "Good For Something I"
     },
+    "DA_18_GroveArmor": {
+      "desc": "Your highest Health champion gains @BonusArmor@ Armor and @BonusMR@ Magic Resist.",
+      "effects": {
+        "BonusArmor": 15.0,
+        "BonusMR": 15.0
+      },
+      "name": "Grove Armor"
+    },
+    "DA_18_GroveArmor_Upgrade": {
+      "desc": "Your highest Health champion gains @BonusArmorUpgrade@ Armor and @BonusMRUpgrade@ Magic Resist.",
+      "effects": {
+        "{18e2f9a9}": 25.0,
+        "{ac3cc501}": 25.0
+      },
+      "name": "Grove Armor"
+    },
     "DA_18_HeatedRivalry": {
       "desc": "Gain a Rengar or a Kha'Zix. They gain @NumStacks@ takedowns.",
       "effects": {
@@ -57178,7 +57200,7 @@
     "DA_18_HeatedRivalry_Upgrade": {
       "desc": "Gain a Rengar or a Kha'Zix. They gain @NumStacksUpgrade@ takedowns.",
       "effects": {
-        "{4d47989a}": 7.0
+        "{4d47989a}": 5.0
       },
       "name": "Heated Rivalry"
     },
@@ -57364,7 +57386,7 @@
     "DA_18_MercenaryForce_Upgrade": {
       "desc": "Gain @DamageAmpUpgrade*100@% Damage Amp for every @PerXGold@ gold you have.",
       "effects": {
-        "{94a79fde}": 0.04500000178813934,
+        "{94a79fde}": 0.03999999910593033,
         "{ddf97b5a}": 10.0
       },
       "name": "Mercenary Force"
@@ -57573,8 +57595,11 @@
       "name": "Resistant"
     },
     "DA_18_RiftbeastTraitAugment": {
-      "desc": "You can now choose a second Alpha Riftbeast. Gain a Scuttlecrab, a Cinderling, and a Pebbles.",
-      "effects": {},
+      "desc": "You can now choose a second Alpha Riftbeast. Alpha Riftbeasts gain @BonusHP*100@% max Health and @BonusAS*100@% Attack Speed. Gain a Scuttlecrab, a Cinderling, and a Pebbles.",
+      "effects": {
+        "BonusAS": 0.12000000476837158,
+        "BonusHP": 0.1499999761581421
+      },
       "name": "Omega Riftbeast"
     },
     "DA_18_RivalsAugment": {
@@ -57593,7 +57618,7 @@
     "DA_18_SprykinAugment": {
       "desc": "While Sprykin is active, gain a second BFF summon that is @Effectiveness_DoesntIncludeSummonSpell*100@% as powerful. Gain a Teemo, a Veigar, and a Kobuko.",
       "effects": {
-        "{7f8d6662}": 0.3499999940395355
+        "{7f8d6662}": 0.44999998807907104
       },
       "name": "Small Furry Friend"
     },
@@ -57819,7 +57844,7 @@
       "desc": "For @UpgradeDuration@ seconds, your shop rerolls for free every @Period@ seconds.",
       "effects": {
         "Period": 2.0,
-        "{dc488023}": 26.0
+        "{dc488023}": 24.0
       },
       "name": "Animate Shop"
     },
@@ -57950,7 +57975,7 @@
     "DA_Artifact_MogulsMail": {
       "desc": null,
       "effects": {},
-      "name": "Mogul'sMail"
+      "name": "Mogul's Mail"
     },
     "DA_Artifact_NavoriFlickerblade": {
       "desc": null,
@@ -58440,6 +58465,13 @@
       },
       "name": "Buried Treasures III"
     },
+    "DA_CalculatedLoss": {
+      "desc": "After losing your combat, gain @Gold@ gold and a free Shop reroll.",
+      "effects": {
+        "Gold": 2.0
+      },
+      "name": "Calculated Loss"
+    },
     "DA_CallToChaos": {
       "desc": "Gain a powerful and random reward.",
       "effects": {},
@@ -58657,7 +58689,7 @@
     "DA_Combust18_Upgrade": {
       "desc": "Your champions explode on death, dealing @maxHealthExplosionDamage_Upgrade*100@% Max Health magic damage.",
       "effects": {
-        "{168a598c}": 0.2199999988079071
+        "{168a598c}": 0.18000000715255737
       },
       "name": "Combust"
     },
@@ -58827,15 +58859,15 @@
     "DA_CurioCart18": {
       "desc": "Open an item store. Items cost 0 to @TooltipMaxCostOfItem@ gold.",
       "effects": {
-        "{72eb58d9}": 22.0
+        "{72eb58d9}": 15.0
       },
       "name": "Curio Cart"
     },
     "DA_CurioCart18_Upgrade": {
       "desc": "Open an item store. Items cost 0 to @TooltipMaxCostOfItem@ gold. <Set18CharmUpgrade>Gain </Set18CharmUpgrade>@UpgradeGoldGain@<Set18CharmUpgrade> Gold.</Set18CharmUpgrade>",
       "effects": {
-        "{0fb627ae}": 2.0,
-        "{72eb58d9}": 22.0
+        "{0fb627ae}": 1.0,
+        "{72eb58d9}": 15.0
       },
       "name": "Curio Cart"
     },
@@ -58843,7 +58875,7 @@
       "desc": "Every @Timer@ seconds, your champions have a @PercentChance*100@% chance to drop @GoldDrop@ Gold.",
       "effects": {
         "Timer": 5.0,
-        "{59d091e2}": 0.15000000596046448,
+        "{59d091e2}": 0.20000000298023224,
         "{90187eca}": 1.0
       },
       "name": "Cutpurse"
@@ -58851,7 +58883,7 @@
     "DA_Cutpurse18_Upgrade": {
       "desc": "Every @Timer_Upgraded@ seconds, your champions have a @PercentChance*100@% chance to drop @GoldDrop@ Gold.",
       "effects": {
-        "{59d091e2}": 0.15000000596046448,
+        "{59d091e2}": 0.20000000298023224,
         "{627bf513}": 4.0,
         "{90187eca}": 1.0
       },
@@ -58963,6 +58995,14 @@
         "{b29e473b}": 4.0
       },
       "name": "Doodad Sack"
+    },
+    "DA_DoubleTrouble": {
+      "desc": "When you field exactly 2 copies of a champion, they both gain @DamageStatAdd*100@% Attack Damage and Ability Power and @DefenseStatAdd@ Armor, and Magic Resist. When you 3-star, gain a 2-star copy.",
+      "effects": {
+        "{14ae3030}": 25.0,
+        "{65020e89}": 0.25
+      },
+      "name": "Double Trouble"
     },
     "DA_Downpour18": {
       "desc": "Your team gains @ManaRegen@ Mana Regen.",
@@ -59185,7 +59225,7 @@
       "name": "Flip Frenzy"
     },
     "DA_Flow18": {
-      "desc": "Your champions are Unstoppable and gain @AttackSpeed*100@% Attack Speed for @Duration@ seconds.",
+      "desc": "Your champions are unstoppable and gain @AttackSpeed*100@% Attack Speed for @Duration@ seconds.",
       "effects": {
         "AttackSpeed": 0.1499999761581421,
         "Duration": 10.0
@@ -59193,7 +59233,7 @@
       "name": "Flow"
     },
     "DA_Flow18_Upgrade": {
-      "desc": "Your champions are Unstoppable and gain @AttackSpeed*100@% Attack Speed for @DurationUpgrade@ seconds.",
+      "desc": "Your champions are unstoppable and gain @AttackSpeed*100@% Attack Speed for @DurationUpgrade@ seconds.",
       "effects": {
         "AttackSpeed": 0.1499999761581421,
         "{0772688f}": 15.0
@@ -59247,6 +59287,16 @@
         "{8ec217d3}": 1.0
       },
       "name": "Forged In Strength"
+    },
+    "DA_FoundBigFriend18": {
+      "desc": "Gain a temporary Training Dummy with two Giant's Belts.",
+      "effects": {},
+      "name": "Returning Friend"
+    },
+    "DA_FoundBigFriend18_Upgrade": {
+      "desc": "Gain a Training Dummy with <Set18CharmUpgrade>Three Giant's Belts</Set18CharmUpgrade>.",
+      "effects": {},
+      "name": "Returning Friend"
     },
     "DA_FoundFriend18": {
       "desc": "Gain a temporary Training Dummy with a Giant's Belt.",
@@ -59697,7 +59747,7 @@
     "DA_Hugify18_Upgrade": {
       "desc": "Your highest Health unit grows, gaining @HealthUpgrade@ Health.",
       "effects": {
-        "{32cf649d}": 600.0
+        "{32cf649d}": 500.0
       },
       "name": "Hugify"
     },
@@ -60275,8 +60325,10 @@
       "name": "Middle Path"
     },
     "DA_Min_Max": {
-      "desc": "Gain a Golden Item Remover and 4 random components.",
-      "effects": {},
+      "desc": "Gain a Golden Item Remover, 4 random components, and @GoldAmount@ gold.",
+      "effects": {
+        "GoldAmount": 4.0
+      },
       "name": "Min-Max"
     },
     "DA_MissedConnections": {
@@ -60379,22 +60431,6 @@
       },
       "name": "Nesting Anvils+"
     },
-    "DA_NestingDollsPlus": {
-      "desc": "After a champion dies in combat, spawn a copy of them one star level lower with @HealthMultiplier*100@% health. Gain @NumRerolls@ free rerolls.",
-      "effects": {
-        "NumRerolls": 3.0,
-        "{52fcdfb4}": 0.6000000238418579
-      },
-      "name": "Nesting Dolls"
-    },
-    "DA_NestingDollsPlusPlus": {
-      "desc": "After a champion dies in combat, spawn a copy of them one star level lower with @HealthMultiplier*100@% health. Gain @NumRerolls@ free rerolls.",
-      "effects": {
-        "NumRerolls": 3.0,
-        "{52fcdfb4}": 0.6000000238418579
-      },
-      "name": "Nesting Dolls"
-    },
     "DA_NoScoutNoPivot": {
       "desc": "Champions that fight in player combat cannot be benched or sold. Your team gains @PostCombatHealthBoost*100@% Health, and @PostCombatApBoost*100@% Attack Damage and Ability Power after player combat.",
       "effects": {
@@ -60424,9 +60460,10 @@
       "name": "Pandora's Items I"
     },
     "DA_PandorasItemsII": {
-      "desc": "Round start: items on your bench are randomized. <br><br>Gain @NumberOfComponentsII@ random components.",
+      "desc": "Round start: items on your bench are randomized. <br><br>Gain @NumberOfComponentsII@ random components and @GoldAmountII@ gold.",
       "effects": {
-        "{739a48af}": 2.0
+        "{739a48af}": 2.0,
+        "{98f3fe09}": 4.0
       },
       "name": "Pandora's Items II"
     },
@@ -60617,7 +60654,7 @@
       "name": "Potioncraft"
     },
     "DA_PottedLifebloom18": {
-      "desc": "Gain a temporary Lifeblossom.",
+      "desc": "Gain a temporary Lifebloom.",
       "effects": {},
       "name": "Potted Lifebloom"
     },
@@ -61188,8 +61225,8 @@
     "DA_StandAlone18_Upgrade": {
       "desc": "Champions alone in their row gain @Health_Upgrade*100@% Health and @DamageAmp_Upgrade*100@% Damage Amp.",
       "effects": {
-        "{7acd771c}": 0.2200000286102295,
-        "{7b935ba9}": 0.2199999988079071
+        "{7acd771c}": 0.20000004768371582,
+        "{7b935ba9}": 0.20000000298023224
       },
       "name": "Stand Alone"
     },
@@ -61224,7 +61261,7 @@
     "DA_Stealthy18": {
       "desc": "Your @NumChampions@ strongest Fighters or Assassins are untargetable for @UntargetableDuration@ seconds.",
       "effects": {
-        "NumChampions": 2.0,
+        "NumChampions": 3.0,
         "UntargetableDuration": 6.0
       },
       "name": "Stealthy"
@@ -61233,7 +61270,7 @@
       "desc": "@NumChampionsUpgrade@ random champions on the back row are untargetable for @UntargetableDurationUpgrade@ seconds.",
       "effects": {
         "{38788569}": 10.0,
-        "{3f2cae9b}": 2.0
+        "{3f2cae9b}": 3.0
       },
       "name": "Stealthy"
     },
@@ -61544,6 +61581,22 @@
       "effects": {},
       "name": "Trophy Hunter"
     },
+    "DA_TrueFriendship18": {
+      "desc": "Gain @GoldForPlayer@ gold and a Magnetic Remover. Your opponent gains @GoldForEnemy@ gold and a Magnetic Remover.",
+      "effects": {
+        "{a25a87df}": 2.0,
+        "{b82ea48a}": 2.0
+      },
+      "name": "True Friendship"
+    },
+    "DA_TrueFriendship18_Upgrade": {
+      "desc": "Gain @UpgradeGoldForPlayer@ gold and a Magnetic Remover. Your opponent gains @UpgradeGoldForEnemy@ gold and a Magnetic Remover.",
+      "effects": {
+        "{943e91b5}": 3.0,
+        "{c77056bc}": 2.0
+      },
+      "name": "True Friendship"
+    },
     "DA_TurtlesVisit18": {
       "desc": "Gain the Turtle Primal buff for this combat.",
       "effects": {},
@@ -61635,7 +61688,7 @@
     "DA_WarmogsArmor": {
       "desc": null,
       "effects": {},
-      "name": "Warmogs Armor"
+      "name": "Warmog's Armor"
     },
     "DA_WarmogsArmorRadiant": {
       "desc": null,
@@ -99910,7 +99963,7 @@
           "minUnits": 7,
           "style": 5,
           "variables": {
-            "ADAP": 0.44999998807907104,
+            "ADAP": 0.5,
             "BonusHealth": 0.10000002384185791,
             "{91925b8e}": 4.0
           }
@@ -99920,7 +99973,7 @@
           "minUnits": 9,
           "style": 5,
           "variables": {
-            "ADAP": 0.5,
+            "ADAP": 0.550000011920929,
             "BonusHealth": 0.10000002384185791
           }
         },
@@ -99991,7 +100044,7 @@
           "variables": {
             "{7a9d7f0e}": 2.0,
             "{d62ae6ae}": 40.0,
-            "{de46577b}": 18.0
+            "{de46577b}": 22.0
           }
         },
         {
@@ -100001,7 +100054,7 @@
           "variables": {
             "{7a9d7f0e}": 2.0,
             "{d62ae6ae}": 40.0,
-            "{de46577b}": 25.0
+            "{de46577b}": 28.0
           }
         },
         {
@@ -100011,7 +100064,7 @@
           "variables": {
             "{7a9d7f0e}": 3.0,
             "{d62ae6ae}": 40.0,
-            "{de46577b}": 32.0
+            "{de46577b}": 35.0
           }
         },
         {
@@ -100053,7 +100106,7 @@
           "style": 5,
           "variables": {
             "{0eb6405e}": 12.0,
-            "{8c16b281}": 120.0
+            "{8c16b281}": 115.0
           }
         }
       ],
@@ -100066,7 +100119,7 @@
           "minUnits": null,
           "style": 1,
           "variables": {
-            "DelaySeconds": 10.0,
+            "DelaySeconds": 8.0,
             "{53db05e8}": 3.5
           }
         }
@@ -100140,7 +100193,7 @@
           "style": 3,
           "variables": {
             "BleedDuration": 3.0,
-            "{2c61751d}": 0.30000001192092896
+            "{2c61751d}": 0.25
           }
         },
         {
@@ -100148,7 +100201,7 @@
           "minUnits": 4,
           "style": 5,
           "variables": {
-            "{2c61751d}": 0.4000000059604645
+            "{2c61751d}": 0.3499999940395355
           }
         }
       ],
@@ -100161,7 +100214,7 @@
           "minUnits": 2,
           "style": 1,
           "variables": {
-            "ADAP": 5.0,
+            "ADAP": 4.5,
             "Heal": 2.5,
             "HealThreshold": 0.5
           }
@@ -100171,7 +100224,7 @@
           "minUnits": 4,
           "style": 5,
           "variables": {
-            "ADAP": 8.0,
+            "ADAP": 7.0,
             "Heal": 4.0,
             "HealThreshold": 0.5
           }
@@ -100232,7 +100285,7 @@
           "style": 5,
           "variables": {
             "DamageAmp": 0.10000000149011612,
-            "{641254b6}": 0.6499999761581421,
+            "{641254b6}": 0.6000000238418579,
             "{83011ee7}": 3.0
           }
         }
@@ -100266,7 +100319,7 @@
           "style": 5,
           "variables": {
             "Duration": 3.0,
-            "{2c202877}": 3.5,
+            "{2c202877}": 3.0,
             "{c4c70a4e}": 2.0
           }
         },
@@ -100276,7 +100329,7 @@
           "style": 5,
           "variables": {
             "Duration": 3.0,
-            "{2c202877}": 4.5,
+            "{2c202877}": 4.0,
             "{c4c70a4e}": 4.0
           }
         }
@@ -100291,7 +100344,7 @@
           "style": 1,
           "variables": {
             "TeamManaRegen": 1.0,
-            "{de27cb95}": 2.0
+            "{de27cb95}": 3.0
           }
         },
         {
@@ -100300,7 +100353,7 @@
           "style": 3,
           "variables": {
             "TeamManaRegen": 1.0,
-            "{de27cb95}": 3.0
+            "{de27cb95}": 4.0
           }
         },
         {
@@ -100309,7 +100362,7 @@
           "style": 3,
           "variables": {
             "TeamManaRegen": 2.0,
-            "{de27cb95}": 5.0
+            "{de27cb95}": 6.0
           }
         },
         {
@@ -100342,7 +100395,7 @@
           "style": 3,
           "variables": {
             "AbilityPower": 0.10000000149011612,
-            "AttackSpeed": 0.10000002384185791,
+            "AttackSpeed": 0.12000000476837158,
             "{6d27fbd4}": 1.0
           }
         },
@@ -100352,7 +100405,7 @@
           "style": 3,
           "variables": {
             "AbilityPower": 0.14000000059604645,
-            "AttackSpeed": 0.13999998569488525,
+            "AttackSpeed": 0.15999996662139893,
             "{6d27fbd4}": 1.0
           }
         },
@@ -100362,7 +100415,7 @@
           "style": 5,
           "variables": {
             "AbilityPower": 0.18000000715255737,
-            "AttackSpeed": 0.1799999475479126,
+            "AttackSpeed": 0.20000004768371582,
             "{6d27fbd4}": 1.0
           }
         }
@@ -100421,7 +100474,7 @@
           "minUnits": 4,
           "style": 3,
           "variables": {
-            "ASperAttack": 0.09000003337860107,
+            "ASperAttack": 0.08000004291534424,
             "MaxStacks": 10.0,
             "{1d98dcec}": 0.10000002384185791
           }
@@ -100431,7 +100484,7 @@
           "minUnits": 5,
           "style": 5,
           "variables": {
-            "ASperAttack": 0.1499999761581421,
+            "ASperAttack": 0.12000000476837158,
             "MaxStacks": 10.0,
             "{1d98dcec}": 0.10000002384185791
           }
@@ -100516,10 +100569,10 @@
             "ShieldRatio": 0.05000000074505806,
             "{092e2b2b}": 3.0,
             "{0a2e2cbe}": 5.0,
-            "{0b2e2e51}": 8.0,
+            "{0b2e2e51}": 7.0,
             "{5cfe766f}": 0.4000000059604645,
             "{617a160e}": 0.1499999761581421,
-            "{7e77da03}": 15.0,
+            "{7e77da03}": 12.0,
             "{a51b2ace}": 0.009999999776482582,
             "{d91f7c21}": 4.0
           }
@@ -100756,7 +100809,7 @@
           "minUnits": 6,
           "style": 5,
           "variables": {
-            "{6eab9c5e}": 0.44999998807907104,
+            "{6eab9c5e}": 0.42000001668930054,
             "{f8c73243}": 0.07999998331069946
           }
         }
@@ -100801,12 +100854,12 @@
           "minUnits": 7,
           "style": 5,
           "variables": {
-            "{0776b071}": 0.05000000074505806,
+            "{0776b071}": 0.05999999865889549,
             "{08cfb22e}": 50.0,
             "{0d6c2c87}": 5.0,
-            "{1b76cfed}": 0.05000000074505806,
+            "{1b76cfed}": 0.05999999865889549,
             "{3230276c}": 1.0,
-            "{4e1998f4}": 0.04999995231628418,
+            "{4e1998f4}": 0.059999942779541016,
             "{a8c6eeaf}": 5.0
           }
         },
