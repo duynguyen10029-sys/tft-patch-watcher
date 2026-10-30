@@ -57660,7 +57660,7 @@
     "DA_18_SupercriticalUpgrade": {
       "desc": "Allies with Precision gain @UpgradeCritDamage*100@% Critical Strike Damage.",
       "effects": {
-        "{6c5a2a96}": 0.4000000059604645
+        "UpgradeCritDamage": 0.4000000059604645
       },
       "name": "Supercritical"
     },
@@ -58383,7 +58383,7 @@
     "DA_BorrowedGear18_Upgrade": {
       "desc": "At the start of combat, a champion gains a temporary recommended item and @UpgradeHealth@<Set18CharmUpgrade> Health</Set18CharmUpgrade>.",
       "effects": {
-        "{f1950c41}": 250.0
+        "UpgradeHealth": 250.0
       },
       "name": "Borrowed Gear"
     },
@@ -90822,10 +90822,10 @@
           "minUnits": 1,
           "style": 1,
           "variables": {
+            "DamageWindowSeconds": 2,
             "PercentDamageEcho": 0.2199999988079071,
             "{44d79b6f}": 8,
-            "{e202a897}": 1,
-            "{e9e2b861}": 2
+            "{e202a897}": 1
           }
         },
         {
@@ -90833,10 +90833,10 @@
           "minUnits": 2,
           "style": 1,
           "variables": {
+            "DamageWindowSeconds": 2,
             "PercentDamageEcho": 0.25,
             "{44d79b6f}": 10,
-            "{e202a897}": 1,
-            "{e9e2b861}": 2
+            "{e202a897}": 1
           }
         }
       ],
@@ -93857,10 +93857,10 @@
           "minUnits": 1,
           "style": 1,
           "variables": {
+            "DamageWindowSeconds": 2,
             "PercentDamageEcho": 0.2199999988079071,
             "{44d79b6f}": 8,
-            "{e202a897}": 1,
-            "{e9e2b861}": 2
+            "{e202a897}": 1
           }
         },
         {
@@ -93868,10 +93868,10 @@
           "minUnits": 2,
           "style": 1,
           "variables": {
+            "DamageWindowSeconds": 2,
             "PercentDamageEcho": 0.25,
             "{44d79b6f}": 10,
-            "{e202a897}": 1,
-            "{e9e2b861}": 2
+            "{e202a897}": 1
           }
         }
       ],
