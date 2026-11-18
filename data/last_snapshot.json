@@ -56811,13 +56811,6 @@
       },
       "name": "Bark Armor"
     },
-    "DA_18_BigGrabBag": {
-      "desc": "Gain 3 random components, @Gold@ gold, and 1 Reforger.",
-      "effects": {
-        "Gold": 2.0
-      },
-      "name": "Big Grab Bag"
-    },
     "DA_18_BloodMoney": {
       "desc": "Gain @GoldOnDeath@ gold for every champion you kill.",
       "effects": {
@@ -56837,16 +56830,6 @@
       "desc": "When you buy a Wisp, gain a random Blossom champion based on the Wisp's cost. Gain a Yunara, a Yorick, and a Karma.",
       "effects": {},
       "name": "Blossom's Call"
-    },
-    "DA_18_BranchingOut": {
-      "desc": "Gain a random Emblem.",
-      "effects": {},
-      "name": "Branching Out"
-    },
-    "DA_18_BranchingOutPlus": {
-      "desc": "Gain a random Emblem and a Reforger.",
-      "effects": {},
-      "name": "Branching Out+"
     },
     "DA_18_BronzeSpoon": {
       "desc": "Gain @XP@ XP.",
@@ -57083,7 +57066,7 @@
     "DA_18_FaeTraitAugment": {
       "desc": "Fae pixies are now larger and grant @BonusMultiplier*100@% more Attack Damage and Ability Power. Fae champions gain @UpfrontADAP*100@% Attack Damage and Ability Power immediately. Gain a Xayah and a Rakan.",
       "effects": {
-        "BonusMultiplier": 0.5,
+        "BonusMultiplier": 0.3499999940395355,
         "{020fc56b}": 0.18000000715255737
       },
       "name": "Embiggen"
@@ -57165,14 +57148,6 @@
         "{6d8a71ae}": 2.0
       },
       "name": "Giant Growth"
-    },
-    "DA_18_GoodForSomethingI": {
-      "desc": "Champions that aren't holding items have a @ChangeDrop*100@% chance to drop @GoldReward@ gold on death.",
-      "effects": {
-        "GoldReward": 1.0,
-        "{f117ccd4}": 0.4000000059604645
-      },
-      "name": "Good For Something I"
     },
     "DA_18_GroveArmor": {
       "desc": "Your highest Health champion gains @BonusArmor@ Armor and @BonusMR@ Magic Resist.",
@@ -57426,13 +57401,6 @@
         "{a19cf950}": 1.75
       },
       "name": "Moonrise"
-    },
-    "DA_18_OneTwoFive": {
-      "desc": "Gain 1 random component, @Gold@ gold, and 1 random 5-cost champion.",
-      "effects": {
-        "Gold": 2.0
-      },
-      "name": "One, Two, Five!"
     },
     "DA_18_OnesTwosThree": {
       "desc": "Gain @OneCosts@ 1-cost champions, @TwoCosts@ 2-cost champion, and @ThreeCosts@ 3-cost champion.",
@@ -58197,6 +58165,13 @@
       },
       "name": "Big Boom"
     },
+    "DA_BigGrabBag": {
+      "desc": "Gain 3 random components, @Gold@ gold, and 1 Reforger.",
+      "effects": {
+        "Gold": 2.0
+      },
+      "name": "Big Grab Bag"
+    },
     "DA_BigGuns18": {
       "desc": "Gain 2 random 1-star 4-cost champions.",
       "effects": {},
@@ -58404,6 +58379,16 @@
       "effects": {},
       "name": "Radiant Bramble Vest"
     },
+    "DA_BranchingOut": {
+      "desc": "Gain a random Emblem.",
+      "effects": {},
+      "name": "Branching Out"
+    },
+    "DA_BranchingOutPlus": {
+      "desc": "Gain a random Emblem and a Reforger.",
+      "effects": {},
+      "name": "Branching Out+"
+    },
     "DA_BronzeForLifeI": {
       "desc": "Your team gains @DamageAmp*100@% Damage Amp for each Bronze-tier trait.",
       "effects": {
@@ -58590,7 +58575,7 @@
     "DA_ClockworkAccelerator": {
       "desc": "Your team gains @AttackSpeed*100@% Attack Speed every @FrequencySeconds@ seconds in combat.",
       "effects": {
-        "AttackSpeed": 0.10000002384185791,
+        "AttackSpeed": 0.12000000476837158,
         "{0810f00e}": 3.0
       },
       "name": "Clockwork Accelerator"
@@ -58675,7 +58660,7 @@
     "DA_Combust18": {
       "desc": "Your champions explode on death, dealing @maxHealthExplosionDamage*100@% Max Health magic damage.",
       "effects": {
-        "{8e1bf27f}": 0.15000000596046448
+        "{8e1bf27f}": 0.11999999731779099
       },
       "name": "Combust"
     },
@@ -58868,7 +58853,7 @@
     "DA_CurioCart18": {
       "desc": "Open an item store. Items cost 0 to @TooltipMaxCostOfItem@ gold.",
       "effects": {
-        "{72eb58d9}": 15.0
+        "{72eb58d9}": 17.0
       },
       "name": "Curio Cart"
     },
@@ -58876,7 +58861,7 @@
       "desc": "Open an item store. Items cost 0 to @TooltipMaxCostOfItem@ gold. <Set18CharmUpgrade>Gain </Set18CharmUpgrade>@UpgradeGoldGain@<Set18CharmUpgrade> Gold.</Set18CharmUpgrade>",
       "effects": {
         "{0fb627ae}": 1.0,
-        "{72eb58d9}": 15.0
+        "{72eb58d9}": 17.0
       },
       "name": "Curio Cart"
     },
@@ -59470,6 +59455,14 @@
       },
       "name": "Golden Goose"
     },
+    "DA_GoodForSomethingI": {
+      "desc": "Champions that aren't holding items have a @ChangeDrop*100@% chance to drop @GoldReward@ gold on death.",
+      "effects": {
+        "GoldReward": 1.0,
+        "{f117ccd4}": 0.4000000059604645
+      },
+      "name": "Good For Something I"
+    },
     "DA_Grandmaster18": {
       "desc": "Gain a random 2-star 5-cost champion.",
       "effects": {},
@@ -59604,6 +59597,14 @@
       "desc": "Gain a temporary equippable <Set18CharmUpgrade>Radiant</Set18CharmUpgrade> Health Potion.",
       "effects": {},
       "name": "Health Potion"
+    },
+    "DA_HeartOfSteel": {
+      "desc": "Gain a Steadfast Heart. Every @SurvivePeriodInSeconds@ seconds of combat its holder survives, Steadfast Heart gains additional @MaxHealthGain@ permanent max Health.",
+      "effects": {
+        "MaxHealthGain": 18.0,
+        "{40e6f170}": 10.0
+      },
+      "name": "Heart of Steel"
     },
     "DA_HedgeFund": {
       "desc": "Gain @InstantGold@ gold. Your max interest is increased to 10.",
@@ -60253,14 +60254,14 @@
     "DA_ManaRichSoil18": {
       "desc": "Your Casters have @MaxManaMultiplier*100@% reduced Max Mana.",
       "effects": {
-        "{24a482c1}": 0.1499999761581421
+        "{24a482c1}": 0.18000000715255737
       },
       "name": "Mana-Rich Soil"
     },
     "DA_ManaRichSoil18_Upgrade": {
       "desc": "Your Casters have @MaxManaMultiplierUpgrade*100@% reduced Max Mana.",
       "effects": {
-        "{e475c01b}": 0.19999998807907104
+        "{e475c01b}": 0.25
       },
       "name": "Mana-Rich Soil"
     },
@@ -60435,6 +60436,11 @@
       "desc": "Gain a Red Buff, a Blue Buff, and a Champion Duplicator.",
       "effects": {},
       "name": "One Buff Two Buff"
+    },
+    "DA_OneTwoFive": {
+      "desc": "Gain 1 random component, 2 gold, and 1 random 5-cost champion",
+      "effects": {},
+      "name": "One, Two, Five!"
     },
     "DA_PandorasBench": {
       "desc": "At the start of every round, champions on the @NumBenchSlots@ rightmost bench slots transform into random champions of the same cost. Gain @GoldGain@ gold.",
@@ -60641,7 +60647,7 @@
       "desc": "Your team gains @ArmorInstant@ Armor and Magic Resist. After falling below @HealthDropThreshold*100@% Health, increase this to @ThresholdArmorBoostCombined@ for the rest of combat.",
       "effects": {
         "{0735b729}": 40.0,
-        "{5705afa5}": 8.0,
+        "{5705afa5}": 10.0,
         "{a6c6ae91}": 0.5
       },
       "name": "Plot Armor"
@@ -61013,7 +61019,7 @@
       "desc": "When you level up, gain a number of Shop refreshes equal to your level +@BonusRollPerLevel@. Gain @GoldGain@ gold.",
       "effects": {
         "BonusRollPerLevel": 1.0,
-        "GoldGain": 6.0
+        "GoldGain": 7.0
       },
       "name": "Shopping Spree"
     },
@@ -61232,7 +61238,7 @@
       "name": "Spreading Roots+"
     },
     "DA_Staffsmith": {
-      "desc": "Gain  @ItemQuantity@ random completed items that build from Needlessly Large Rod.",
+      "desc": "Gain @ItemQuantity@ random completed items that build from Needlessly Large Rod.",
       "effects": {
         "{2ce16abf}": 2.0
       },
@@ -99979,7 +99985,7 @@
           "minUnits": 7,
           "style": 5,
           "variables": {
-            "ADAP": 0.5,
+            "ADAP": 0.550000011920929,
             "BonusHealth": 0.10000002384185791,
             "{91925b8e}": 4.0
           }
@@ -99989,7 +99995,7 @@
           "minUnits": 9,
           "style": 5,
           "variables": {
-            "ADAP": 0.550000011920929,
+            "ADAP": 0.6499999761581421,
             "BonusHealth": 0.10000002384185791
           }
         },
